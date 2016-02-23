@@ -1,0 +1,14 @@
+{{#x-select value=model.name}}
+  {{#x-option selected=true value="George"}}
+    George
+  {{/x-option}}
+  {{#x-option value="Wombatus"}}
+    Wombatus
+  {{/x-option}}
+  {{#x-option value="Julius"}}
+    Julius
+  {{/x-option}}
+{{/x-select}}
+
+{{link-to 'back' 'application'}}
+{{outlet}}

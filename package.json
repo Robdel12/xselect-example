@@ -35,6 +35,7 @@
     "ember-data": "^2.3.0",
     "ember-disable-proxy-controllers": "^1.0.1",
     "ember-export-application-global": "^1.0.4",
-    "ember-resolver": "^2.0.3"
+    "ember-resolver": "^2.0.3",
+    "emberx-select": "thefrontside/emberx-select#930aa1db8bc8535004df4089346489295b75255e"
   }
 }
