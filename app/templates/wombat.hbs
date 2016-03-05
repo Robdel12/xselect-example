@@ -10,5 +10,9 @@
   {{/x-option}}
 {{/x-select}}
 
-{{link-to 'back' 'application'}}
+{{link-to 'back' 'application'}} |
+<button {{action "rollback"}}>Rollback</button>
+<div>
+  <strong>Model:</strong> {{model.name}}
+</div>
 {{outlet}}
