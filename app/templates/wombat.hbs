@@ -11,8 +11,8 @@
 {{/x-select}}
 
 {{link-to 'back' 'application'}} |
-<button {{action "rollback"}}>Rollback</button>
+<button {{action "rollback"}} class="spec-rollback-btn">Rollback</button>
 <div>
-  <strong>Model:</strong> {{model.name}}
+  <strong>Model:</strong> <span class="spec-model">{{model.name}}</span>
 </div>
 {{outlet}}
