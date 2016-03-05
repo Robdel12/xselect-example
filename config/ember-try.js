@@ -1,6 +1,33 @@
 module.exports = {
   scenarios: [
     {
+      name: 'Ember 1.10.0 with ember-data v1.0.0-beta.18',
+      bower: {
+        dependencies: {
+          'ember': '1.10.0',
+          'ember-data': 'v1.0.0-beta.18'
+        }
+      }
+    },
+    {
+      name: 'Ember 1.11.0 with ember-data 1.13.0',
+      bower: {
+        dependencies: {
+          'ember': '1.11.0',
+          'ember-data': '1.13.0'
+        }
+      }
+    },
+    {
+      name: 'Ember 1.12.1 with ember-data 1.13.0',
+      bower: {
+        dependencies: {
+          'ember': '1.12.1',
+          'ember-data': '1.13.0'
+        }
+      }
+    },
+    {
       name: 'Ember 1.13.0 with ember-data 1.13.0',
       bower: {
         dependencies: {
